@@ -14,5 +14,6 @@ source .jupyter/bin/activate
 pip install jupyter bokeh jupyter_bokeh sleep_until
 
 # Run jupyter
+export GOOGLE_API_KEY="your google maps API key"
 jupyter notebook
 ```
