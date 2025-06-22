@@ -11,7 +11,7 @@ cd kybernetes-notebooks
 # Setup a virtual environment for Jupyter Notebooks
 virtualenv .jupyter
 source .jupyter/bin/activate
-pip install jupyter bokeh jupyter_bokeh sleep_until
+pip install -r requirements.txt
 
 # Run jupyter
 export GOOGLE_API_KEY="your google maps API key"
